@@ -1,0 +1,11 @@
+.txtcenter{
+    text-align: center;
+}
+
+.jumbotron a{
+    color: white;
+}
+
+.jumbotron a:hover{
+    color: black;
+}
