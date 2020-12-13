@@ -11,7 +11,7 @@ I'd like to think i learnt a great deal about Bootstrap and what it can offer to
 
 #### For the future
 I would like to alter how the rows and columns displayed on smaller screens in the future. For example, instead of just using the class "col-md-6" i would also add in a class for smaller sized screens: "col-sm-6".
-I also think it would be beneficial for me to regularly come back to this site and update it to reflect how i have developed as a web developer.
+I also think it would be beneficial for me to regularly come back to this site and update it to reflect how i have developed as a web developer (Add more skills as i learn, add projects as i complete them etc.).
 I'd also like to play with the colour scheme as it's rather bland at the moment.
 
 ##### Screenshots & Link to site
@@ -19,3 +19,5 @@ I'd also like to play with the colour scheme as it's rather bland at the moment.
 ![Screenshot #1](/images/1.png)
 ![Screenshot #2](/images/2.png)
 ![Screenshot #3](/images/3.png)
+
+https://mydryday.github.io/UoB_BC_Portfolio/
