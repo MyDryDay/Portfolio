@@ -1,6 +1,13 @@
 .img{
     margin-top: 10%;
     margin-bottom: 10%;
+    height: auto;
+    width: auto;
+}
+
+.accordHead{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .projectContainer {
@@ -68,4 +75,8 @@
 
 .projectContainer:hover a{
     color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .img{height: 186px; width: 162px};
 }
