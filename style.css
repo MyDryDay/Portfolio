@@ -1,13 +1,21 @@
+body{
+    font-size: 100%;
+}
+
 .img{
     margin-top: 10%;
     margin-bottom: 10%;
-    height: auto;
-    width: auto;
+    height: 300px;
+    width: 300px;
 }
 
 .accordHead{
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.projectCard{
+    margin-bottom: 5%;
 }
 
 .projectContainer {
@@ -35,13 +43,17 @@
     border-radius:.25rem;
 }
 
+.projectContainer:hover a{
+    color: white;
+}
+
 .projectContainer:hover .overlay {
     opacity: 0.7;
 }
 
 .headerText {
     color: white;
-    font-size: 20px;
+    font-size: 1.2em;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -53,7 +65,7 @@
 
 .linkRepo{
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,7 +76,7 @@
 
 .linkApp{
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     position: absolute;
     top: 65%;
     left: 50%;
@@ -73,10 +85,9 @@
     transform: translate(-50%, -50%);
 }
 
-.projectContainer:hover a{
-    color: white;
-}
-
 @media only screen and (max-width: 576px) {
     .img{height: 186px; width: 162px};
+    .headerText{line-height: 110%};
+    .linkRepo{line-height: 110%};
+    .linkApp{line-height: 110%};
 }
