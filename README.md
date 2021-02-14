@@ -36,4 +36,4 @@ Like i've already said, in the future i will consider utilising other CSS framew
 ![2](images/2.png)
 ![3](images/3.png)
 
-https://mydryday.github.io/UoB_BC_Portfolio/
+https://mydryday.github.io/Portfolio/
