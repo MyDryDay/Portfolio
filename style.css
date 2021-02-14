@@ -1,5 +1,20 @@
 body{
     font-size: 100%;
+    background-color: #149F98;
+    color: #CCCCCC;
+}
+
+.dropdown-menu{
+    background-color: #10292E;
+}
+
+.dropdown-item{
+    color: #CCCCCC;
+}
+
+.dropdown-item:hover{
+    background-color: #CCCCCC;
+    color: #10292E;
 }
 
 .homeText{
@@ -25,13 +40,14 @@ body{
 .img{
     margin-top: 10%;
     margin-bottom: 10%;
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .accordHead{
     font-size: 1.5em;
     font-weight: bold;
+    color: #10292E;
 }
 
 .projectCard{
@@ -111,3 +127,44 @@ body{
     .linkRepo{line-height: 110%};
     .linkApp{line-height: 110%};
 }
+
+.bg-dark{
+    background-color: #10292E !important;
+}
+
+.navbar-item:hover{
+    color: #CCCCCC !important;
+}
+
+.nav-item:hover{
+    color: #CCCCCC !important;
+}
+
+.btn-dark{
+    background-color: #51283E !important;
+    border: none !important;
+}
+
+.btn-dark::selection{
+    border: none !important;
+}
+
+.btn-light{
+    background-color: #CC2D6F !important;
+    border: none !important;
+    /* #C3DBF5 */
+    /* #E6E3D4 */
+}
+
+.card{
+    border: none !important;
+}
+
+.card-body{
+    background-color: #149F98;
+    color: #CCCCCC;
+    border: solid 10px #51283E !important;
+}
+
+
+
